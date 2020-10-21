@@ -32,10 +32,10 @@ gamerBot.on('message', message => {
     const mesContent = message.content.slice(prefix.length).split(/ +/);
     const command = mesContent.shift().toLowerCase();
 
-    /*if(command === 'update' && message.member.permissions.has('ADMINISTRATOR')){
-        gamerBot.commands.get('update').execute(message, mesContent);
     //updater command only for use with Raspberry Pi implementation
-    }updater command requires special permission to run so it is placed outside of the switch*/
+    if(command === 'update' && message.member.permissions.has('ADMINISTRATOR')){
+        gamerBot.commands.get('update').execute(message, mesContent);
+    }//updater command requires special permission to run so it is placed outside of the switch
 
     switch(command){
         case 'ping':    gamerBot.commands.get('ping').execute(message, mesContent);
