@@ -5,7 +5,7 @@
   "main": "discordBot.js",
   "author": "MikeHawk",
   "dependencies": {
-    "discord.js": "^11.4.2",
+    "discord.js": "^12.4.0",
     "require.js": "^1.0.0",
     "shelljs": "^0.8.3"
   }
