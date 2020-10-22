@@ -1,9 +1,9 @@
 {
-  "name": "bottybotcheeks",
-  "version": "1.0",
+  "name": "robit",
+  "version": "1.1",
   "description": "first version of gamers discord bot",
   "main": "discordBot.js",
-  "author": "MikeHawk",
+  "author": "Dan Lepe",
   "dependencies": {
     "discord.js": "^12.4.0",
     "require.js": "^1.0.0",
