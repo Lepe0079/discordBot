@@ -4,6 +4,6 @@ module.exports = {
     
     execute(message, argument)
     {
-        message.channel.send('pong');
+        message.channel.send('pxng');
     },
 };
