@@ -7,6 +7,6 @@ module.exports = {
         var shell = require('shelljs');
         message.channel.send('updating...');
         shell.exec('sleep 1s');
-        shell.exec('sudo shutdown -r');
+        shell.exec('git -C ~/discordBot pull origin master');
     },
 };
